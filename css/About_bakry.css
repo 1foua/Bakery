@@ -1,0 +1,341 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* <!-- start navbar --> */
+
+.navbar {
+    height: 50vh; 
+    width: 100%;
+    background-image: url(../Bakery/images/drew-coffman-1872.jpg);
+    background-position: center top 100%;
+    background-size: cover;
+    float: right;
+    margin-top: 0;
+    margin-right: 0;
+    border-top: 13px;
+    margin-bottom: 0; 
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin-right: 65px;
+    margin-top: 40px;
+    text-align: center;
+    float: right;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 40px;
+}
+
+.navbar a {
+    color: aliceblue;
+}
+
+.img {
+    position: absolute;
+    left: 70px;
+    top: 0;
+    width: 10%;
+    margin: 25px;
+}
+
+.clear-fix {
+    clear: both;
+}
+
+.header {
+    margin: auto;
+    padding: 180px;
+    text-align: center;
+    color: white;
+}
+
+.header h1 {
+    margin-bottom: 18px;
+    font-size: 34px;
+    font-family: 'Alegreya', serif;
+
+}
+
+/* <!-- end navbar --> */
+
+/* start section one  */
+.Our-Story {
+    width: 80%;
+    margin: auto;
+    display: flex; 
+}
+
+.story img {
+    width: 500px;
+    height: 500px;
+    padding: 13px 15px;
+    margin-top: 50px; 
+    margin-bottom: 20px;
+}
+
+.text  {
+margin-left: 10vh;
+    margin-top: 12vh;
+    
+}
+.text p
+{
+    font-size: 18.3872px;
+    margin-top: 20px;
+    color: #606060;
+}
+.text h3
+{
+    font-family: "Alegreya Sans", sans-serif;
+
+    font-size: 32px;
+    color: #303030;
+}
+.one
+{
+    margin-top: 12vh;
+}
+
+.one p
+{
+    font-size: 17px;
+    color: #686868 ;
+
+}
+
+/* end section one  */
+
+
+/* <!-- star section two --> */
+.bakery
+{
+    
+    overflow: auto;
+    width: 80%;
+    margin: auto;
+    background-color:#f8f8f8;
+    text-align: center;
+}
+
+.head 
+{
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+}
+.icon-container
+{
+    color: #686868;
+    margin-top: 10vh;
+}
+
+
+.head p
+
+{
+    color: #686868;
+}
+.head h3
+
+{
+    color: #686868;
+}
+
+.three
+{
+   margin-top: 20px;
+   margin-bottom: 30px;
+    width: 33.33%;
+    float: left;
+}
+.three p 
+{
+    color: #686868;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.three h3
+{
+    color: #686868;
+    text-align: left;
+}
+.all
+{
+margin-bottom: 15vh;
+    background-color: #f8f8f8;
+}
+
+.statistics {
+    display: flex;
+
+    justify-content: space-around;
+    background-color: #8e7754;
+    color: white;
+    padding:  0;
+}
+
+.stat {
+    text-align: center;
+    margin-bottom: 20vh;
+}
+
+.stat i {
+    font-size: 2px;
+}
+
+.stat h2 {
+    margin: 40px 0;
+}
+
+/* 
+.fas-fa-thumbs-up,
+.fas-fa-map-marker-alt,
+.fas-fa-lightbulb,
+.fas-fa-commentsy 
+{
+width: 36px;
+height: 36px;
+
+
+
+}
+.fas-fa-thumbs-up {
+    background-image: url(../Bakery/images/Icons/leaf.png);
+}
+
+.fas-fa-map-marker-alt
+ {
+    background-image: url(../Bakery/images/Icons/people.png);
+}
+
+.fas-fa-lightbulb {
+    background-image: url(../Bakery/images/Icons/heart.png);
+}ر.fas-fa-commentsy {
+    background-image: url(../Bakery/images/Icons/check.png);
+} */
+
+
+
+/* start section four */
+
+
+
+
+.last
+{
+
+
+width: 100%;
+  background-color: #403d38;
+  justify-content: space-between;
+  display: flex;
+  margin: auto;
+  
+
+}
+.last-one
+{
+  width: 25%;
+color: rgb(255, 255, 255);
+font-size: 18px;
+font-family: 'Alegreya', serif;
+text-align: center;
+}
+.last-one h3
+{
+  color: 
+  rgb(255, 255, 255);
+  font-size: 25px;
+}
+.last-one p
+{
+  text-align: left;
+  margin-left: 30px;
+color: white; 
+ font-size: 16px;
+
+}
+
+
+
+
+/* end section four */
+
+/* last section */
+.mapouter {
+    overflow: auto;
+    background-color:#353330;
+    width: 100%;
+    text-align: center;
+      display: flex;
+     justify-content: center;
+    align-items: center; 
+} 
+
+
+.fouad img {
+    width: 353px;
+    height: 96px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.fouad p
+{
+    
+    size: 15px;
+    color: rgb(119, 119, 119);
+}
+
+
+.social-icons
+ {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    margin: 0 10px;
+
+  }
+  
+.facebook ,
+.gmail,
+.linked,
+.twiter
+    {
+        content: "";
+         display: inline-block;
+         height: 40px; 
+         width:40px; 
+         background-image: url(../Bakery/images/Icons/facebook.png);
+         background-color: #8E7754;
+    
+         background-size: contain;
+         border-radius: 50%; 
+         border: 1px solid rgb(142, 119, 84) ;
+         vertical-align: middle;
+      
+  }
+  .facebookt {
+    background-image: url(../Bakery/images/Icons/facebook.png);
+}
+
+.gmail {
+    background-image: url(../Bakery/images/Icons/google.png);
+}
+
+.linked {
+    background-image: url(../Bakery/images/Icons/linkedin.png);
+}
+
+.twiter {
+    background-image: url(../Bakery/images/Icons/twitter.png);
+}
